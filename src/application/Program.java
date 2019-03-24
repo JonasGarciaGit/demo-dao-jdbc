@@ -50,7 +50,6 @@ public class Program {
          int id = new Scanner(System.in).nextInt();
          sellerDao.deleteById(id);
          System.out.println("Delete Complete! ");
-         
-    
+
     }
 }
